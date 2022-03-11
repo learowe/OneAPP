@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { NavLink } from 'react-router-dom';
+
 function App() {
   return (
     <div className="content">
@@ -23,13 +25,13 @@ function App() {
       <nav className="homePageNav">
         <ul>
           <li>
-            <a>Class Material</a>
+            <NavLink to="/classMaterial/classmaterial1">Class Material</NavLink>
           </li>
           <li>
-            <a>Class Projects</a>
+            <NavLink to="/classProjects/classproject1">Class Projects</NavLink>
           </li>
           <li>
-            <a>Homework</a>
+            <NavLink to="/homeWork/homework1">Homework</NavLink>
           </li>
         </ul>
       </nav>
