@@ -1,0 +1,15 @@
+.save-button {
+  padding: 0 1rem;
+  margin: 2rem auto auto 0;
+  background: var(--gradient);
+  color: var(--dark);
+}
+
+.animationBox {
+  font-style: bold;
+  padding: 10rem;
+  margin-top: 5rem;
+  font-size: 100px;
+  color: white;
+  text-shadow: 5px, 5px, black;
+}
