@@ -3,9 +3,12 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import './index.css';
+import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
+import "primereact/resources/primereact.min.css";                  //core css
+import "primeicons/primeicons.css";                                //icons
 
 import App from './App';
-import ClassMaterial1 from './classMaterial/ClassMaterial1';
+import Week9PrimeForms from './classMaterial/Week9PrimeForms';
 import ClassMaterial2 from './classMaterial/ClassMaterial2';
 import ClassMaterial3 from './classMaterial/ClassMaterial3';
 import ClassProject1 from './classProjects/ClassProject1';
@@ -21,7 +24,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}/>
-        <Route path="/classMaterial/classmaterial1" element={<ClassMaterial1 />}/>
+        <Route path="/classMaterial/Week9PrimeForms" element={<Week9PrimeForms />}/>
         <Route path="/classMaterial/classmaterial2" element={<ClassMaterial2 />}/>
         <Route path="/classMaterial/classmaterial3" element={<ClassMaterial3 />}/>
         <Route path="/classProjects/classproject1" element={<ClassProject1 />}/>

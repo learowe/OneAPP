@@ -25,7 +25,7 @@ function App() {
       <nav className="homePageNav">
         <ul>
           <li>
-            <NavLink to="/classMaterial/classmaterial1">Class Material</NavLink>
+            <NavLink to="/classMaterial/Week9PrimeForms">Class Material</NavLink>
           </li>
           <li>
             <NavLink to="/classProjects/classproject1">Class Projects</NavLink>
