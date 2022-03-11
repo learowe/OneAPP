@@ -1,15 +1,16 @@
 import React from 'react'
 import _NavBarHW from './_NavBarHW';
 
-function Homework1() {
+function Week9Homework() {
   return (
     <div className="app-container">
       <_NavBarHW />
       <div className="content">
-        Homework 1
+        <h1>Week 9 Homework</h1>
+
       </div> 
     </div>
   );
 }
 
-export default Homework1
+export default Week9Homework

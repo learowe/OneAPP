@@ -11,7 +11,7 @@ import App from './App';
 import Week9PrimeForms from './classMaterial/Week9PrimeForms';
 import ClassMaterial2 from './classMaterial/ClassMaterial2';
 import ClassMaterial3 from './classMaterial/ClassMaterial3';
-import ClassProject1 from './classProjects/ClassProject1';
+import Week9PrimeFormSolo from './classProjects/Week9PrimeFormSolo';
 import ClassProject2 from './classProjects/ClassProject2';
 import ClassProject3 from './classProjects/ClassProject3';
 import Homework1 from './homeWork/Homework1';
@@ -27,7 +27,7 @@ ReactDOM.render(
         <Route path="/classMaterial/Week9PrimeForms" element={<Week9PrimeForms />}/>
         <Route path="/classMaterial/classmaterial2" element={<ClassMaterial2 />}/>
         <Route path="/classMaterial/classmaterial3" element={<ClassMaterial3 />}/>
-        <Route path="/classProjects/classproject1" element={<ClassProject1 />}/>
+        <Route path="/classProjects/Week9PrimeFormSolo" element={<Week9PrimeFormSolo />}/>
         <Route path="/classProjects/classproject2" element={<ClassProject2 />}/>
         <Route path="/classProjects/classproject3" element={<ClassProject3 />}/>
         <Route path="/homeWork/homework1" element={<Homework1 />}/>

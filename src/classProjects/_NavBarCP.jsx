@@ -10,7 +10,7 @@ function _NavBarCP() {
           <NavLink className={({ isActive }) => (isActive ? 'activelink' : '')} to="/">HomePage</NavLink>
         </li>
         <li>
-          <NavLink className={({ isActive }) => (isActive ? 'activelink' : '')} to="/classProjects/classproject1">Class Project 1</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'activelink' : '')} to="/classProjects/Week9PrimeFormSolo">Week9PrimeFormSolo</NavLink>
         </li>
         <li>
           <NavLink className={({ isActive }) => (isActive ? 'activelink' : '')} to="/classProjects/classproject2">Class Project 2</NavLink>
