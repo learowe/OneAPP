@@ -10,7 +10,7 @@ function _NavBarHW() {
           <NavLink className={({ isActive }) => (isActive ? 'activelink' : '')} to="/">HomePage</NavLink>
         </li>
         <li>
-          <NavLink className={({ isActive }) => (isActive ? 'activelink' : '')} to="/homeWork/homework1">Homework 1</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'activelink' : '')} to="/homeWork/Week9Homework">Week9Homework</NavLink>
         </li>
         <li>
           <NavLink className={({ isActive }) => (isActive ? 'activelink' : '')} to="/homeWork/homework2">Homework 2</NavLink>
